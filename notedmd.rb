@@ -19,7 +19,7 @@ class Notedmd < Formula
   end
 
   def install
-    bin.install "notedmd"
+    bin.install "bin/notedmd"
   end
 
   test do
