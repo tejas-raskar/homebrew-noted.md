@@ -1,20 +1,20 @@
 class Notedmd < Formula
   desc "A command-line tool to convert handwritten notes into clean and readable Markdown files"
   homepage "https://github.com/tejas-raskar/noted.md"
-  version "0.2.2"
+  version "0.2.3"
 
   if OS.mac?
     if Hardware::CPU.intel?
-      url "https://github.com/tejas-raskar/noted.md/releases/download/v0.2.2/notedmd-v0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "6a1ea412fc821b791f7da457ae029727e706521dd73c3df3070d0b6e3c9e9d21"
+      url "https://github.com/tejas-raskar/noted.md/releases/download/v0.2.3/notedmd-v0.2.3-x86_64-apple-darwin.tar.gz"
+      sha256 "1bc4327477c6e81dcfd42ac35d9541663c8dcf625d55fce261eb6ef8699f441e"
     elsif Hardware::CPU.arm?
-      url "https://github.com/tejas-raskar/noted.md/releases/download/v0.2.2/notedmd-v0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "b622aee509eefa7df42a54028d94814428d07ce0165217543ffa92b2b0619e07"
+      url "https://github.com/tejas-raskar/noted.md/releases/download/v0.2.3/notedmd-v0.2.3-aarch64-apple-darwin.tar.gz"
+      sha256 "d7d34bdfc12e070220a49d58526f551372a7fb3701c79efb9c88c232a555809e"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/tejas-raskar/noted.md/releases/download/v0.2.2/notedmd-v0.2.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "604df6fc03aaa1ef684258661241edf6a4bb6d5aabc3755a1bf56e62cd0d624e"
+      url "https://github.com/tejas-raskar/noted.md/releases/download/v0.2.3/notedmd-v0.2.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "3e7a1ad48a78d2ff4b6292317ae9b1dcab830455edbdfd0bce4249106f260564"
     end
   end
 
